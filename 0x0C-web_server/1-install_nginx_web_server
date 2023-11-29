@@ -17,4 +17,4 @@ sudo chown -R $USER /var/www
 echo 'Hello World!' > /var/www/html/index.nginx-debian.html
 
 # restart Nginx to apply the changes
-service nginx start
+service nginx restart
